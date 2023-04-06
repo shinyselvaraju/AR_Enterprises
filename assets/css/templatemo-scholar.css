@@ -1610,10 +1610,16 @@ Contact Style
   margin-bottom: 15px;
 }
 
+.contact-us-content h6{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 .contact-us-content .more-info h4 a {
   color: #fff;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
+  padding-bottom: 1rem;
 }
 
 /* 
