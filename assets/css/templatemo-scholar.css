@@ -248,6 +248,8 @@ Pre-loader Style
 
 
 
+
+
 /* 
 ---------------------------------------------
 Header Style
@@ -305,27 +307,15 @@ Header Style
   border-right: 1px solid white;
 }
 
-.circle::after { content: ""; display: block; padding-bottom: 100%; }
-.circle { 
-	  width: 100px;
-  border-radius: 50%;  
-  border: 2px solid white; 
-  margin-right: 5rem;
+.background-header .main-nav .logo {
+  /* margin-top: 16px; */
 }
-.circle { position: relative; line-height: 0; }
-.circle .txt 
-{ position: absolute;
-   bottom: 50%;
-    width: 100%; 
-    text-align: center; 
-    font-weight: 700;
-    font-size: 28px;
-    color: #fff;
-  }
 
-.background-header .main-nav .logo,
-.background-header .main-nav #search {
-  margin-top: 18px;
+.img-logo{
+  display: block; 
+  margin-top: -8px;
+  width: 10vw; 
+  height: 16vh;
 }
 
 .header-area .main-nav #search {
@@ -544,6 +534,9 @@ Header Style
     padding-left: 10px;
     padding-right: 10px;
   }
+  .img-logo{
+    visibility: hidden;
+  }
 
 }
 
@@ -649,6 +642,9 @@ Header Style
     visibility: hidden;
   }
   
+  .img-logo{
+    visibility: hidden;
+  }
 }
 
 /* 
